@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #0000FF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <StackPane prefHeight="50.0" prefWidth="200.0">
+            <children>
+                <Label fx:id="result" prefHeight="33.0" prefWidth="270.0" style="-fx-background-color: #66CDAA;">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Label>
+            </children></StackPane>
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+            <children>
+                <Button maxWidth="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#processNumbers" style="-fx-background-color: #FFFF00;" text="7" textAlignment="RIGHT">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button maxWidth="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#processNumbers" style="-fx-background-color: #FFFF00;" text="8">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button maxWidth="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#processNumbers" style="-fx-background-color: #FFFF00;" text="9">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button maxWidth="50.0" mnemonicParsing="false" onAction="#processOperators" style="-fx-background-color: #FFFF00;" text="/">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+            <children>
+                <Button maxWidth="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#processNumbers" style="-fx-background-color: #FFFF00;" text="4">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button maxWidth="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#processNumbers" style="-fx-background-color: #FFFF00;" text="5">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button maxWidth="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#processNumbers" style="-fx-background-color: #FFFF00;" text="6">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button maxWidth="50.0" mnemonicParsing="false" onAction="#processOperators" style="-fx-background-color: #FFFF00;" text="*">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+            <children>
+                <Button maxWidth="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#processNumbers" style="-fx-background-color: #FFFF00;" text="1">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button maxWidth="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#processNumbers" style="-fx-background-color: #FFFF00;" text="2">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button maxWidth="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#processNumbers" style="-fx-background-color: #FFFF00;" text="3">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button maxWidth="50.0" mnemonicParsing="false" onAction="#processOperators" style="-fx-background-color: #FFFF00;" text="-">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="300.0" spacing="10.0">
+            <children>
+                <Button maxWidth="110.0" minWidth="110.0" mnemonicParsing="false" onAction="#processNumbers" style="-fx-background-color: #FFFF00;" text="0">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button maxWidth="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#processOperators" style="-fx-background-color: #FFFF00;" text="+">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Button maxWidth="50.0" mnemonicParsing="false" onAction="#processOperators" style="-fx-background-color: #FFFF00;" text="=">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+    </children>
+</VBox>
